@@ -1,0 +1,29 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'ALL-Demo' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for ALL-Demo
+
+	pod 'YYKit'
+	pod 'Masonry'
+	pod 'SDWebImage', '~> 3.8.1'
+	pod 'CYLTabBarController','~>1.17.11'
+    pod 'MBProgressHUD'
+    pod 'SVProgressHUD'
+    pod 'AFNetworking'
+    pod 'MJRefresh'
+    #传统抽屉效果
+    pod 'MMDrawerController'
+    #一句话集成，0耦合，抽屉效果
+    pod 'CWLateralSlide'
+    pod 'MJExtension'
+    pod 'SDAutoLayout'
+    #图片视频选择器，浏览器
+    pod 'TZImagePickerController'
+    #视频播放样式，多种，仿抖音
+#    pod 'ZFPlayer'
+
+end
