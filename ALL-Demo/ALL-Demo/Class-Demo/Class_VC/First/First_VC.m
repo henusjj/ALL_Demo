@@ -29,6 +29,13 @@
 #import "SjjCamersAddphotol.h"
 #import "SjjTimer.h"
 #import "SjjcollectionVC.h"
+
+#import "AnimationViewController.h"
+#import "SjjfixImagViewController.h"
+#import "SjjLunboCollectionViewController.h"
+#import "SjjSearchViewController.h"
+
+
 @interface First_VC ()<UITableViewDataSource,UITableViewDelegate>
 @property(nonatomic,copy)NSArray *arrylist;
 @end
@@ -59,7 +66,7 @@
     
     
     _arrylist=[[NSArray alloc]init];
-    _arrylist = @[@"封装Scrollview轮播图",@"标签轮播",@"给UIView添加滚动",@"NavBarTitielScroller",@"仿qq点击出现个人信息",@"实用案例-我的订单",@"MBP使用",@"SVProgressHUD",@"个人中心",@"工具类蒙版",@"系统调用相册和相机",@"定时器",@"collectionVC"];
+    _arrylist = @[@"封装Scrollview轮播图",@"标签轮播",@"给UIView添加滚动",@"NavBarTitielScroller",@"仿qq点击出现个人信息",@"实用案例-我的订单",@"MBP使用",@"SVProgressHUD",@"个人中心",@"工具类蒙版",@"系统调用相册和相机",@"定时器",@"collectionVC",@"我的动画练习",@"下拉图片放大",@"轮播图",@"UISearchController"];
         
 }
 
@@ -150,11 +157,27 @@
         SjjTimer *vc = [[SjjTimer alloc]init];
         vc.title =@"定时器";
         [self.navigationController pushViewController: vc animated:YES];
-    }  else{
+    }  else if(indexPath.row == 12){
         SjjcollectionVC *vc =[[SjjcollectionVC alloc]init];
         vc.title = @"collection";
         [self.navigationController pushViewController:vc animated:YES];
         
+    }else if (indexPath.row == 13){
+        AnimationViewController *vc=[AnimationViewController new];
+        vc.title=@"动画练习";
+        [self.navigationController pushViewController:vc animated:YES];
+    }else if (indexPath.row == 14){
+        
+        SjjfixImagViewController *vc=[SjjfixImagViewController new];
+        vc.title=@"下拉放大图片";
+        [self.navigationController pushViewController:vc animated:YES];
+    }else if (indexPath.row == 15){
+        
+        SjjLunboCollectionViewController *vc=[SjjLunboCollectionViewController new];
+        vc.title=@"轮播图片";
+        [self.navigationController pushViewController:vc animated:YES];
+    }else if (indexPath.row == 16){
+        [self.navigationController pushViewController:[SjjSearchViewController new] animated:YES];
     }
 }
 

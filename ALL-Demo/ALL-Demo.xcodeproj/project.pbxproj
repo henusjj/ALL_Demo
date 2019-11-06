@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4553C0992293A54E00D6D59B /* SjjLunboCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4553C0982293A54E00D6D59B /* SjjLunboCollectionViewController.m */; };
+		458A52F1234C733F00D8692F /* SjjSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 458A52EF234C726700D8692F /* SjjSearchViewController.m */; };
+		45A847B722700D1900829AA3 /* SjjfixImagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A847B422700B8A00829AA3 /* SjjfixImagViewController.m */; };
+		45E0687A225AF0690029D626 /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E06879225AF0690029D626 /* AnimationViewController.m */; };
 		C44CC2DEFE422E21CA21DE61 /* libPods-ALL-Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CECD7C6E1274510C094FE70 /* libPods-ALL-Demo.a */; };
 		E709281120E4716C00866FF3 /* Sjj-MyOrder-tableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E709281020E4716C00866FF3 /* Sjj-MyOrder-tableViewCell.m */; };
 		E70BD53221745D4700A43AA7 /* SjjViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E70BD53121745D4700A43AA7 /* SjjViewController.m */; };
@@ -152,6 +156,14 @@
 
 /* Begin PBXFileReference section */
 		4526C1825777E9BC7104D084 /* Pods-ALL-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALL-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ALL-Demo/Pods-ALL-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		4553C0972293A54E00D6D59B /* SjjLunboCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SjjLunboCollectionViewController.h; sourceTree = "<group>"; };
+		4553C0982293A54E00D6D59B /* SjjLunboCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SjjLunboCollectionViewController.m; sourceTree = "<group>"; };
+		458A52EE234C726700D8692F /* SjjSearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SjjSearchViewController.h; sourceTree = "<group>"; };
+		458A52EF234C726700D8692F /* SjjSearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SjjSearchViewController.m; sourceTree = "<group>"; };
+		45A847B322700B8A00829AA3 /* SjjfixImagViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SjjfixImagViewController.h; sourceTree = "<group>"; };
+		45A847B422700B8A00829AA3 /* SjjfixImagViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SjjfixImagViewController.m; sourceTree = "<group>"; };
+		45E06878225AF0690029D626 /* AnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationViewController.h; sourceTree = "<group>"; };
+		45E06879225AF0690029D626 /* AnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationViewController.m; sourceTree = "<group>"; };
 		8CECD7C6E1274510C094FE70 /* libPods-ALL-Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ALL-Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2FB8EFBDCAE99E70D29A96E /* Pods-ALL-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALL-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ALL-Demo/Pods-ALL-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		E709280F20E4716C00866FF3 /* Sjj-MyOrder-tableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sjj-MyOrder-tableViewCell.h"; sourceTree = "<group>"; };
@@ -1215,6 +1227,14 @@
 				E7B0A5BD214A4E3700418219 /* ChildVCTwo.m */,
 				E746EAFE218045F400DE7A5A /* ChildVCOne+Sjjone.h */,
 				E746EAFF218045F400DE7A5A /* ChildVCOne+Sjjone.m */,
+				45E06878225AF0690029D626 /* AnimationViewController.h */,
+				45E06879225AF0690029D626 /* AnimationViewController.m */,
+				45A847B322700B8A00829AA3 /* SjjfixImagViewController.h */,
+				45A847B422700B8A00829AA3 /* SjjfixImagViewController.m */,
+				4553C0972293A54E00D6D59B /* SjjLunboCollectionViewController.h */,
+				4553C0982293A54E00D6D59B /* SjjLunboCollectionViewController.m */,
+				458A52EE234C726700D8692F /* SjjSearchViewController.h */,
+				458A52EF234C726700D8692F /* SjjSearchViewController.m */,
 			);
 			path = other;
 			sourceTree = "<group>";
@@ -1491,7 +1511,9 @@
 			files = (
 				E709281120E4716C00866FF3 /* Sjj-MyOrder-tableViewCell.m in Sources */,
 				E7409EF820BEA64400F7A4C3 /* Second_VC.m in Sources */,
+				458A52F1234C733F00D8692F /* SjjSearchViewController.m in Sources */,
 				E7B0A63A214A6CFC00418219 /* ZFTableData.m in Sources */,
+				45A847B722700D1900829AA3 /* SjjfixImagViewController.m in Sources */,
 				E7AA9182210954680002DBC1 /* MJBag.m in Sources */,
 				E7B0A605214A4F2C00418219 /* SjjTimer.m in Sources */,
 				E7B0A59F214A4DB800418219 /* ZFPlayerGestureControl.m in Sources */,
@@ -1505,9 +1527,11 @@
 				E7B0A5A0214A4DB800418219 /* ZFPlayerController.m in Sources */,
 				E7B0A5AB214A4DB800418219 /* ZFAVPlayerManager.m in Sources */,
 				E711BA5920FEE4BD0099B34D /* SjjYYText.m in Sources */,
+				4553C0992293A54E00D6D59B /* SjjLunboCollectionViewController.m in Sources */,
 				E7B0A5B6214A4DB800418219 /* ZFSpeedLoadingView.m in Sources */,
 				E711BA5520FEDAB70099B34D /* SjjYYkitvViewControl.m in Sources */,
 				E7B0A5FE214A4F2C00418219 /* SjjtianjiaAddress.m in Sources */,
+				45E0687A225AF0690029D626 /* AnimationViewController.m in Sources */,
 				E7B0A607214A4F2C00418219 /* ThreeViewController.m in Sources */,
 				E7B0A610214A4F2C00418219 /* Sjjaddress.m in Sources */,
 				E7B0A5B5214A4DB800418219 /* ZFLoadingView.m in Sources */,

@@ -40,6 +40,6 @@
 
 -(void)swiz_viewWillAppear:(BOOL)animated{
     [self swiz_viewWillAppear:animated];
-    NSLog(@"我是替换的");
+    NSLog(@"我是替换的（swiz_viewWillAppear）-runtime示例");
 }
 @end
