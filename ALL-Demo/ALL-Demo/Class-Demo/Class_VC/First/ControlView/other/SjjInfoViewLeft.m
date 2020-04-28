@@ -9,7 +9,7 @@
 #import "SjjInfoViewLeft.h"
 #import "SjjLeftVC.h"
 #import "SjjRightVC.h"
-#import "SjjNavigationController.h"
+//#import "SjjNavigationController.h"
 //导入抽屉效果分类
 #import "UIViewController+CWLateralSlide.h"
 
@@ -60,10 +60,10 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     if (indexPath.row == 1) {
         SjjRightVC *vc = [[SjjRightVC alloc]init];
-        SjjNavigationController *nav = [[SjjNavigationController alloc]initWithRootViewController:vc];
+//        SjjNavigationController *nav = [[SjjNavigationController alloc]initWithRootViewController:vc];
         CWLateralSlideConfiguration *conf = [CWLateralSlideConfiguration configurationWithDistance:0 maskAlpha:0.4 scaleY:0.4 direction:CWDrawerTransitionFromLeft backImage:[UIImage imageNamed:@"0.jpg"]];
         
-        [self cw_showDrawerViewController:nav animationType:CWDrawerAnimationTypeDefault configuration:conf];
+        [self cw_showDrawerViewController:vc animationType:CWDrawerAnimationTypeDefault configuration:conf];
     }
 }
 
